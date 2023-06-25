@@ -12,6 +12,11 @@ def home():
     return render_template('option.html')
 
 
+@app.route('/test')
+def home():
+    return 'Test successful...!'
+
+
 @app.route('/mob')
 def mob():
     return render_template('index.html')
